@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/reportback">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="51dp"
+        android:text="用户反馈"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="139dp"
+        android:text="实用评分"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="212dp"
+        android:text="使用评分"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="125dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="198dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="286dp"
+        android:background="@android:drawable/edit_text"
+        android:enabled="true"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:scrollbars="vertical" 
+        android:textColor="#000000"
+        android:hint="反馈意见..">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonfankui"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="420dp"
+        android:text="提交"
+        android:textColor="#000000" />
+
+</AbsoluteLayout>

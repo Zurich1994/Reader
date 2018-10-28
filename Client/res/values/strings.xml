@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="dubook">朗读</string>
+    <string name="app_name">掌上阅读器</string>
+    <string name="about_book">关于本书</string>
+    <string name="local_book">掌上阅读器</string>
+    <string name="input_book">导入本地书目</string>
+    <string name="feedback">反馈</string>
+    <string name="bookpop_size">字号 </string>
+    <string name="bookpop_light">亮度 </string>
+    <string name="bookpop_card">书签 </string>
+    <string name="bookpop_send">跳转 </string>
+    <string name="in_refush">刷新</string>
+    <string name="test_color">字体颜色</string>
+    <string name="back_color">背景图片</string>
+    <string name="bookpop_down">下载 </string>
+    
+ 
+
+
+</resources>

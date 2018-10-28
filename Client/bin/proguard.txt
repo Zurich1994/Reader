@@ -1,0 +1,39 @@
+# view AndroidManifest.xml #generated:57
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.booktest.BookListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.booktest.InActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.booktest.Read { <init>(...); }
+
+# view res/layout/main.xml #generated:70
+-keep class com.booktest.View.ArcMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.booktest.androidreader.BookShopActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:21
+-keep class com.booktest.androidreader.EditTextWithDelete { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.booktest.androidreader.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.booktest.mydialog.Fankui { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.booktest.mydialog.guanyu { <init>(...); }
+
+# view res/layout/umeng_analyse_feedback_conversation.xml #generated:11
+-keep class com.feedback.ui.ThreadView { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:38
+-keepclassmembers class * { *** doGet(...); }
+
+# onClick res/layout/activity_main.xml #generated:48
+-keepclassmembers class * { *** register(...); }
+

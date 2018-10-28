@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#87CEEB"
+    tools:context=".fankui" >
+
+   
+ <ImageView
+     android:layout_marginTop="25dip" 
+     android:id="@+id/mage"
+     android:src="@drawable/ic_launcher"
+     android:layout_centerHorizontal="true"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     ></ImageView>   
+<com.booktest.androidreader.EditTextWithDelete
+    
+     android:id="@+id/username"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="111" 
+     android:layout_below="@id/mage"
+    />    
+<EditText
+    android:id="@+id/password"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="111"
+    android:layout_below="@id/username"
+    android:password="true"
+    >
+    </EditText>
+<Button
+    android:id="@+id/doget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="doGet"
+    android:text="登录" 
+    android:layout_below="@id/password"
+    >
+    </Button>    
+
+<Button
+    android:id="@+id/register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="register"
+    android:text="注册" 
+    android:layout_below="@id/password"
+    android:layout_toRightOf="@+id/doget"
+    >
+    </Button> 
+</RelativeLayout>

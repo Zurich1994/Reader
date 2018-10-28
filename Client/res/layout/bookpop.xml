@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bookback" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout 
+	    android:id="@+id/Layout_1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:baselineAligned="false" >
+	
+	    <TextView
+	        android:id="@+id/bookdu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_mulu"
+	        android:gravity="center"
+	        android:text="@string/dubook" />
+	
+	    <TextView
+	        android:id="@+id/testcolor"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_text_color"
+	        android:gravity="center"
+	        android:text="@string/test_color" />
+		
+	    <TextView
+	        android:id="@+id/bookBtn2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_screen_brightness"
+	        android:gravity="center"
+	        android:text="@string/bookpop_light" />
+
+	
+	    <TextView
+	        android:id="@+id/book_download"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_down"
+	        android:gravity="center"
+	        android:text="@string/bookpop_down" />
+
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+	    android:id="@+id/Layout_2"
+	    android:layout_marginTop="15sp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:layout_below="@+id/Layout_1"
+	    android:baselineAligned="false" >
+	
+	    <TextView
+	        android:id="@+id/bookBtn1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_text_size"
+	        android:gravity="center"
+	        android:text="@string/bookpop_size" />
+	
+	   <TextView
+	        android:id="@+id/bookbackcolor"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_backcolor"
+	        android:gravity="center"
+	        android:text="@string/back_color" />
+	
+	    <TextView
+	        android:id="@+id/bookBtn3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_bookmark_operation"
+	        android:gravity="center"
+	        android:text="@string/bookpop_card" />
+	
+	    <TextView
+	        android:id="@+id/bookBtn4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reader_jump_to"
+	        android:gravity="center"
+	        android:text="@string/bookpop_send" />
+
+	</LinearLayout>
+</RelativeLayout>

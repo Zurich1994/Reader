@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/reportback">
+
+    <Button
+        android:id="@+id/buttonqueren"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="372dp"
+        android:text="确认"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="315dp"
+        android:text="宗华毅、关智林、吕经祥、刘增宇、贾慧曦"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="72dp"
+        android:text="关于软件"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="160dp"
+        android:text="版权所有"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="161dp"
+        android:layout_y="278dp"
+        android:text="制作人"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="205dp"
+        android:text="哈尔滨工程大学"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bookid">
+        <item>book0.txt</item>
+        <item>book1.txt</item>
+        <item>book2.txt</item>
+    </string-array>
+    <string-array name="bookname">
+        <item>全能法神</item>
+        <item>盘龙</item>
+        <item>盗墓笔记</item>
+    </string-array>
+    <string-array name="bookauthor">
+        <item>狂财神</item>
+        <item>爱吃西红柿</item>
+        <item>未知</item>
+    </string-array>
+
+</resources>
+
